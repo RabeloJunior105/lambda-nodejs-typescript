@@ -1,0 +1,9 @@
+{
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Aoba\",\"age\":18,\"charge\":\"QA Engineer\"}",
+    "pathParameters": {
+        "id": "2e006cba-53b3-4457-94ac-ce26f85645ac"
+    }
+}
