@@ -7,11 +7,18 @@ import { middyfy } from '@libs/lambda';
 import { Repository } from '@functions/shared/repository/repository'
 
 const listAll = async () => {
-  const listAll = await new Repository("employee").find()
+  try {
+    const listAll = await new Repository("employee").find()
 
-  return formatJSONResponse({
-    items: listAll
-  });
+    return formatJSONResponse({
+      items: listAll
+    }, 200);
+
+  } catch (error) {
+    return formatJSONResponse({
+      error: { message: error.message }
+    }, 400);
+  }
 }
 
 export const main = middyfy(listAll);
