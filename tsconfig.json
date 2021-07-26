@@ -15,7 +15,8 @@
   "include": [
     "src/**/*.ts",
     "src/**/**/*.ts",
-    "serverless.ts"
+    "serverless.ts",
+    "src/functions/Employees/create/create.spec.js"
   ],
   "exclude": [
     "node_modules/**/*",
