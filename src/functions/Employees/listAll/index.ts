@@ -6,7 +6,8 @@ export default {
     {
       http: {
         method: 'GET',
-        path: 'employee/list'
+        path: 'employee/list',
+        cors: true,
       }
     }
   ]

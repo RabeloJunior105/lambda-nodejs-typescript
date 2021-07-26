@@ -8,6 +8,7 @@ export default {
       http: {
         method: 'PUT',
         path: '/employee/{id}',
+        cors: true,
         request: {
           parameters: {
             paths: { "id": true }

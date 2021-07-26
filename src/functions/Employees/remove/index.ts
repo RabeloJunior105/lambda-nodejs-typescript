@@ -7,6 +7,7 @@ export default {
       http: {
         method: 'DELETE',
         path: 'employee/{id}',
+        cors: true,
         request: {
           parameters: {
             paths: { "id": true }

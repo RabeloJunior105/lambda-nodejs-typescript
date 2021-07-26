@@ -6,13 +6,23 @@ import { listAll, create, change, listById, remove } from '@functions/index';
 const serverlessConfiguration: AWS = {
   service: 'aws-crud-ts',
   frameworkVersion: '2',
+
   custom: {
     webpack: {
       webpackConfig: './webpack.config.js',
       includeModules: true,
     },
+    jest: {
+
+      "name": "my-project",
+      "jest": {
+        "verbose": true
+      }
+
+    }
+
   },
-  plugins: ['serverless-webpack'],
+  plugins: ['serverless-webpack', 'serverless-jest-plugin'],
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',

@@ -228,7 +228,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-crud-ts/dev/1627246245411-2021-07-25T20:50:45.411Z/aws-crud-ts.zip"
+                "S3Key": "serverless/aws-crud-ts/dev/1627266820504-2021-07-26T02:33:40.504Z/aws-crud-ts.zip"
               },
               "Handler": "src/functions/Employees/listAll/handler.main",
               "Runtime": "nodejs14.x",
@@ -258,7 +258,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-crud-ts/dev/1627246245411-2021-07-25T20:50:45.411Z/aws-crud-ts.zip"
+                "S3Key": "serverless/aws-crud-ts/dev/1627266820504-2021-07-26T02:33:40.504Z/aws-crud-ts.zip"
               },
               "Handler": "src/functions/Employees/create/handler.main",
               "Runtime": "nodejs14.x",
@@ -288,7 +288,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-crud-ts/dev/1627246245411-2021-07-25T20:50:45.411Z/aws-crud-ts.zip"
+                "S3Key": "serverless/aws-crud-ts/dev/1627266820504-2021-07-26T02:33:40.504Z/aws-crud-ts.zip"
               },
               "Handler": "src/functions/Employees/change/handler.main",
               "Runtime": "nodejs14.x",
@@ -318,7 +318,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-crud-ts/dev/1627246245411-2021-07-25T20:50:45.411Z/aws-crud-ts.zip"
+                "S3Key": "serverless/aws-crud-ts/dev/1627266820504-2021-07-26T02:33:40.504Z/aws-crud-ts.zip"
               },
               "Handler": "src/functions/Employees/listById/handler.main",
               "Runtime": "nodejs14.x",
@@ -348,7 +348,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-crud-ts/dev/1627246245411-2021-07-25T20:50:45.411Z/aws-crud-ts.zip"
+                "S3Key": "serverless/aws-crud-ts/dev/1627266820504-2021-07-26T02:33:40.504Z/aws-crud-ts.zip"
               },
               "Handler": "src/functions/Employees/remove/handler.main",
               "Runtime": "nodejs14.x",
@@ -371,54 +371,54 @@
               "RemoveLogGroup"
             ]
           },
-          "ListAllLambdaVersion4NRkAkB4ip48CSAACiYr9t14olOGsu6bdMuEoYqR0zM": {
+          "ListAllLambdaVersionhAHHbTDvbi9RinSpXeuCWs6QjgJhUU8kTyhLmQASmg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ListAllLambdaFunction"
               },
-              "CodeSha256": "iqdx+WiYQwJryPGsXlNuizXVeJHRfP4luWlnQUFaej0="
+              "CodeSha256": "PrZrGsRmvf/nyupXvxWGFCi4oIQT1kJ56zcFFWQrlIw="
             }
           },
-          "CreateLambdaVersionHYCuH8uGUwyIR8KwHI8DxQOF1NGVqJBSTi9X24lWM": {
+          "CreateLambdaVersiondr0DmtzTv5nCx5nfAQZdbq6QHG4CeuLcbwnfsrq3HlU": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CreateLambdaFunction"
               },
-              "CodeSha256": "iqdx+WiYQwJryPGsXlNuizXVeJHRfP4luWlnQUFaej0="
+              "CodeSha256": "PrZrGsRmvf/nyupXvxWGFCi4oIQT1kJ56zcFFWQrlIw="
             }
           },
-          "ChangeLambdaVersionDUdpp4V3zyYUs3ujtMjmkJg8LrW8K0wtoCqczLLJX4": {
+          "ChangeLambdaVersion9pAwZOBng5fNiq1GOJGofd8JLI7KYRbSdy7J5hnAL8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ChangeLambdaFunction"
               },
-              "CodeSha256": "iqdx+WiYQwJryPGsXlNuizXVeJHRfP4luWlnQUFaej0="
+              "CodeSha256": "PrZrGsRmvf/nyupXvxWGFCi4oIQT1kJ56zcFFWQrlIw="
             }
           },
-          "ListByIdLambdaVersionL62n4C2TApXLs3O5O4MIKiSCNsFZk6RTYHoz0Ba0hU": {
+          "ListByIdLambdaVersionv2SyUQ0RM3HFgqFeRx1VR9e5PU5yBdodvusLCzGnM": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ListByIdLambdaFunction"
               },
-              "CodeSha256": "iqdx+WiYQwJryPGsXlNuizXVeJHRfP4luWlnQUFaej0="
+              "CodeSha256": "PrZrGsRmvf/nyupXvxWGFCi4oIQT1kJ56zcFFWQrlIw="
             }
           },
-          "RemoveLambdaVersion5oEVw1KfzMyzcVpnqLEVXmlqeBQmfUIY88lzXnBPZs": {
+          "RemoveLambdaVersionrbdtRdXH5T8my53DJmylBTwsy199srb5QegvkEIwmVs": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "RemoveLambdaFunction"
               },
-              "CodeSha256": "iqdx+WiYQwJryPGsXlNuizXVeJHRfP4luWlnQUFaej0="
+              "CodeSha256": "PrZrGsRmvf/nyupXvxWGFCi4oIQT1kJ56zcFFWQrlIw="
             }
           },
           "ApiGatewayRestApi": {
@@ -480,6 +480,186 @@
                 "Ref": "ApiGatewayResourceEmployee"
               },
               "PathPart": "{id}",
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              }
+            }
+          },
+          "ApiGatewayMethodEmployeeListOptions": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+              "AuthorizationType": "NONE",
+              "HttpMethod": "OPTIONS",
+              "MethodResponses": [
+                {
+                  "StatusCode": "200",
+                  "ResponseParameters": {
+                    "method.response.header.Access-Control-Allow-Origin": true,
+                    "method.response.header.Access-Control-Allow-Headers": true,
+                    "method.response.header.Access-Control-Allow-Methods": true
+                  },
+                  "ResponseModels": {}
+                }
+              ],
+              "RequestParameters": {},
+              "Integration": {
+                "Type": "MOCK",
+                "RequestTemplates": {
+                  "application/json": "{statusCode:200}"
+                },
+                "ContentHandling": "CONVERT_TO_TEXT",
+                "IntegrationResponses": [
+                  {
+                    "StatusCode": "200",
+                    "ResponseParameters": {
+                      "method.response.header.Access-Control-Allow-Origin": "'*'",
+                      "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent'",
+                      "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET'"
+                    },
+                    "ResponseTemplates": {
+                      "application/json": "#set($origin = $input.params(\"Origin\"))\n#if($origin == \"\") #set($origin = $input.params(\"origin\")) #end\n#if($origin.matches(\".+\")) #set($context.responseOverride.header.Access-Control-Allow-Origin = $origin) #end"
+                    }
+                  }
+                ]
+              },
+              "ResourceId": {
+                "Ref": "ApiGatewayResourceEmployeeList"
+              },
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              }
+            }
+          },
+          "ApiGatewayMethodEmployeeOptions": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+              "AuthorizationType": "NONE",
+              "HttpMethod": "OPTIONS",
+              "MethodResponses": [
+                {
+                  "StatusCode": "200",
+                  "ResponseParameters": {
+                    "method.response.header.Access-Control-Allow-Origin": true,
+                    "method.response.header.Access-Control-Allow-Headers": true,
+                    "method.response.header.Access-Control-Allow-Methods": true
+                  },
+                  "ResponseModels": {}
+                }
+              ],
+              "RequestParameters": {},
+              "Integration": {
+                "Type": "MOCK",
+                "RequestTemplates": {
+                  "application/json": "{statusCode:200}"
+                },
+                "ContentHandling": "CONVERT_TO_TEXT",
+                "IntegrationResponses": [
+                  {
+                    "StatusCode": "200",
+                    "ResponseParameters": {
+                      "method.response.header.Access-Control-Allow-Origin": "'*'",
+                      "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent'",
+                      "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,POST'"
+                    },
+                    "ResponseTemplates": {
+                      "application/json": "#set($origin = $input.params(\"Origin\"))\n#if($origin == \"\") #set($origin = $input.params(\"origin\")) #end\n#if($origin.matches(\".+\")) #set($context.responseOverride.header.Access-Control-Allow-Origin = $origin) #end"
+                    }
+                  }
+                ]
+              },
+              "ResourceId": {
+                "Ref": "ApiGatewayResourceEmployee"
+              },
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              }
+            }
+          },
+          "ApiGatewayMethodEmployeeIdVarOptions": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+              "AuthorizationType": "NONE",
+              "HttpMethod": "OPTIONS",
+              "MethodResponses": [
+                {
+                  "StatusCode": "200",
+                  "ResponseParameters": {
+                    "method.response.header.Access-Control-Allow-Origin": true,
+                    "method.response.header.Access-Control-Allow-Headers": true,
+                    "method.response.header.Access-Control-Allow-Methods": true
+                  },
+                  "ResponseModels": {}
+                }
+              ],
+              "RequestParameters": {},
+              "Integration": {
+                "Type": "MOCK",
+                "RequestTemplates": {
+                  "application/json": "{statusCode:200}"
+                },
+                "ContentHandling": "CONVERT_TO_TEXT",
+                "IntegrationResponses": [
+                  {
+                    "StatusCode": "200",
+                    "ResponseParameters": {
+                      "method.response.header.Access-Control-Allow-Origin": "'*'",
+                      "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent'",
+                      "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,DELETE,PUT'"
+                    },
+                    "ResponseTemplates": {
+                      "application/json": "#set($origin = $input.params(\"Origin\"))\n#if($origin == \"\") #set($origin = $input.params(\"origin\")) #end\n#if($origin.matches(\".+\")) #set($context.responseOverride.header.Access-Control-Allow-Origin = $origin) #end"
+                    }
+                  }
+                ]
+              },
+              "ResourceId": {
+                "Ref": "ApiGatewayResourceEmployeeIdVar"
+              },
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              }
+            }
+          },
+          "ApiGatewayMethodEmployeeListIdVarOptions": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+              "AuthorizationType": "NONE",
+              "HttpMethod": "OPTIONS",
+              "MethodResponses": [
+                {
+                  "StatusCode": "200",
+                  "ResponseParameters": {
+                    "method.response.header.Access-Control-Allow-Origin": true,
+                    "method.response.header.Access-Control-Allow-Headers": true,
+                    "method.response.header.Access-Control-Allow-Methods": true
+                  },
+                  "ResponseModels": {}
+                }
+              ],
+              "RequestParameters": {},
+              "Integration": {
+                "Type": "MOCK",
+                "RequestTemplates": {
+                  "application/json": "{statusCode:200}"
+                },
+                "ContentHandling": "CONVERT_TO_TEXT",
+                "IntegrationResponses": [
+                  {
+                    "StatusCode": "200",
+                    "ResponseParameters": {
+                      "method.response.header.Access-Control-Allow-Origin": "'*'",
+                      "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent'",
+                      "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET'"
+                    },
+                    "ResponseTemplates": {
+                      "application/json": "#set($origin = $input.params(\"Origin\"))\n#if($origin == \"\") #set($origin = $input.params(\"origin\")) #end\n#if($origin.matches(\".+\")) #set($context.responseOverride.header.Access-Control-Allow-Origin = $origin) #end"
+                    }
+                  }
+                ]
+              },
+              "ResourceId": {
+                "Ref": "ApiGatewayResourceEmployeeListIdVar"
+              },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
               }
@@ -768,7 +948,7 @@
               }
             }
           },
-          "ApiGatewayDeployment1627246229840": {
+          "ApiGatewayDeployment1627266769500": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -777,6 +957,10 @@
               "StageName": "dev"
             },
             "DependsOn": [
+              "ApiGatewayMethodEmployeeListOptions",
+              "ApiGatewayMethodEmployeeOptions",
+              "ApiGatewayMethodEmployeeIdVarOptions",
+              "ApiGatewayMethodEmployeeListIdVarOptions",
               "ApiGatewayMethodEmployeeListGet",
               "ApiGatewayMethodEmployeePost",
               "ApiGatewayMethodEmployeeIdVarPut",
@@ -1001,7 +1185,7 @@
           "ListAllLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ListAllLambdaVersion4NRkAkB4ip48CSAACiYr9t14olOGsu6bdMuEoYqR0zM"
+              "Ref": "ListAllLambdaVersionhAHHbTDvbi9RinSpXeuCWs6QjgJhUU8kTyhLmQASmg"
             },
             "Export": {
               "Name": "sls-aws-crud-ts-dev-ListAllLambdaFunctionQualifiedArn"
@@ -1010,7 +1194,7 @@
           "CreateLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CreateLambdaVersionHYCuH8uGUwyIR8KwHI8DxQOF1NGVqJBSTi9X24lWM"
+              "Ref": "CreateLambdaVersiondr0DmtzTv5nCx5nfAQZdbq6QHG4CeuLcbwnfsrq3HlU"
             },
             "Export": {
               "Name": "sls-aws-crud-ts-dev-CreateLambdaFunctionQualifiedArn"
@@ -1019,7 +1203,7 @@
           "ChangeLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ChangeLambdaVersionDUdpp4V3zyYUs3ujtMjmkJg8LrW8K0wtoCqczLLJX4"
+              "Ref": "ChangeLambdaVersion9pAwZOBng5fNiq1GOJGofd8JLI7KYRbSdy7J5hnAL8"
             },
             "Export": {
               "Name": "sls-aws-crud-ts-dev-ChangeLambdaFunctionQualifiedArn"
@@ -1028,7 +1212,7 @@
           "ListByIdLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ListByIdLambdaVersionL62n4C2TApXLs3O5O4MIKiSCNsFZk6RTYHoz0Ba0hU"
+              "Ref": "ListByIdLambdaVersionv2SyUQ0RM3HFgqFeRx1VR9e5PU5yBdodvusLCzGnM"
             },
             "Export": {
               "Name": "sls-aws-crud-ts-dev-ListByIdLambdaFunctionQualifiedArn"
@@ -1037,7 +1221,7 @@
           "RemoveLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "RemoveLambdaVersion5oEVw1KfzMyzcVpnqLEVXmlqeBQmfUIY88lzXnBPZs"
+              "Ref": "RemoveLambdaVersionrbdtRdXH5T8my53DJmylBTwsy199srb5QegvkEIwmVs"
             },
             "Export": {
               "Name": "sls-aws-crud-ts-dev-RemoveLambdaFunctionQualifiedArn"
@@ -1159,10 +1343,17 @@
       "webpack": {
         "webpackConfig": "./webpack.config.js",
         "includeModules": true
+      },
+      "jest": {
+        "name": "my-project",
+        "jest": {
+          "verbose": true
+        }
       }
     },
     "plugins": [
-      "serverless-webpack"
+      "serverless-webpack",
+      "serverless-jest-plugin"
     ],
     "pluginsData": {},
     "functions": {
@@ -1173,6 +1364,25 @@
             "http": {
               "method": "get",
               "path": "employee/list",
+              "cors": {
+                "origins": [
+                  "*"
+                ],
+                "origin": "*",
+                "methods": [
+                  "OPTIONS",
+                  "GET"
+                ],
+                "headers": [
+                  "Content-Type",
+                  "X-Amz-Date",
+                  "Authorization",
+                  "X-Api-Key",
+                  "X-Amz-Security-Token",
+                  "X-Amz-User-Agent"
+                ],
+                "allowCredentials": false
+              },
               "integration": "AWS_PROXY"
             }
           }
@@ -1185,7 +1395,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "ListAllLambdaVersion4NRkAkB4ip48CSAACiYr9t14olOGsu6bdMuEoYqR0zM"
+        "versionLogicalId": "ListAllLambdaVersionhAHHbTDvbi9RinSpXeuCWs6QjgJhUU8kTyhLmQASmg"
       },
       "create": {
         "handler": "src/functions/Employees/create/handler.main",
@@ -1194,6 +1404,25 @@
             "http": {
               "method": "post",
               "path": "employee",
+              "cors": {
+                "origins": [
+                  "*"
+                ],
+                "origin": "*",
+                "methods": [
+                  "OPTIONS",
+                  "POST"
+                ],
+                "headers": [
+                  "Content-Type",
+                  "X-Amz-Date",
+                  "Authorization",
+                  "X-Api-Key",
+                  "X-Amz-Security-Token",
+                  "X-Amz-User-Agent"
+                ],
+                "allowCredentials": false
+              },
               "request": {
                 "schema": {
                   "application/json": {
@@ -1213,7 +1442,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "CreateLambdaVersionHYCuH8uGUwyIR8KwHI8DxQOF1NGVqJBSTi9X24lWM"
+        "versionLogicalId": "CreateLambdaVersiondr0DmtzTv5nCx5nfAQZdbq6QHG4CeuLcbwnfsrq3HlU"
       },
       "change": {
         "handler": "src/functions/Employees/change/handler.main",
@@ -1222,6 +1451,25 @@
             "http": {
               "method": "put",
               "path": "employee/{id}",
+              "cors": {
+                "origins": [
+                  "*"
+                ],
+                "origin": "*",
+                "methods": [
+                  "OPTIONS",
+                  "PUT"
+                ],
+                "headers": [
+                  "Content-Type",
+                  "X-Amz-Date",
+                  "Authorization",
+                  "X-Api-Key",
+                  "X-Amz-Security-Token",
+                  "X-Amz-User-Agent"
+                ],
+                "allowCredentials": false
+              },
               "request": {
                 "parameters": {
                   "method.request.path.id": true
@@ -1239,7 +1487,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "ChangeLambdaVersionDUdpp4V3zyYUs3ujtMjmkJg8LrW8K0wtoCqczLLJX4"
+        "versionLogicalId": "ChangeLambdaVersion9pAwZOBng5fNiq1GOJGofd8JLI7KYRbSdy7J5hnAL8"
       },
       "listById": {
         "handler": "src/functions/Employees/listById/handler.main",
@@ -1248,6 +1496,25 @@
             "http": {
               "method": "get",
               "path": "employee/list/{id}",
+              "cors": {
+                "origins": [
+                  "*"
+                ],
+                "origin": "*",
+                "methods": [
+                  "OPTIONS",
+                  "GET"
+                ],
+                "headers": [
+                  "Content-Type",
+                  "X-Amz-Date",
+                  "Authorization",
+                  "X-Api-Key",
+                  "X-Amz-Security-Token",
+                  "X-Amz-User-Agent"
+                ],
+                "allowCredentials": false
+              },
               "request": {
                 "parameters": {
                   "method.request.path.id": true
@@ -1265,7 +1532,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "ListByIdLambdaVersionL62n4C2TApXLs3O5O4MIKiSCNsFZk6RTYHoz0Ba0hU"
+        "versionLogicalId": "ListByIdLambdaVersionv2SyUQ0RM3HFgqFeRx1VR9e5PU5yBdodvusLCzGnM"
       },
       "remove": {
         "handler": "src/functions/Employees/remove/handler.main",
@@ -1274,6 +1541,25 @@
             "http": {
               "method": "delete",
               "path": "employee/{id}",
+              "cors": {
+                "origins": [
+                  "*"
+                ],
+                "origin": "*",
+                "methods": [
+                  "OPTIONS",
+                  "DELETE"
+                ],
+                "headers": [
+                  "Content-Type",
+                  "X-Amz-Date",
+                  "Authorization",
+                  "X-Api-Key",
+                  "X-Amz-Security-Token",
+                  "X-Amz-User-Agent"
+                ],
+                "allowCredentials": false
+              },
               "request": {
                 "parameters": {
                   "method.request.path.id": true
@@ -1291,7 +1577,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "RemoveLambdaVersion5oEVw1KfzMyzcVpnqLEVXmlqeBQmfUIY88lzXnBPZs"
+        "versionLogicalId": "RemoveLambdaVersionrbdtRdXH5T8my53DJmylBTwsy199srb5QegvkEIwmVs"
       }
     },
     "resources": {
@@ -1345,7 +1631,7 @@
     "isDashboardMonitoringPreconfigured": false
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-crud-ts/dev/1627246245411-2021-07-25T20:50:45.411Z",
+    "artifactDirectoryName": "serverless/aws-crud-ts/dev/1627266820504-2021-07-26T02:33:40.504Z",
     "artifact": ""
   }
 }

@@ -7,6 +7,7 @@ export default {
       http: {
         method: 'GET',
         path: 'employee/list/{id}',
+        cors: true,
         request: {
           parameters: {
             paths: { "id": true }
